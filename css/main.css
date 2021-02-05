@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    margin-right: 400px;
+    color: white;
+    text-align: center;
+  }
+
+  .topnav h4 {
+      font-size: 200px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.header-image {
+    background-image: url(https://drive.google.com/thumbnail?id=1inpaoavhsIDXV52Fzh52O_auEjvPYeCI&authuser=0&sz=w2416-h1396);
+    background-size: 1200px ;
+    max-width: 100%;
+    height: 590px;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    padding-top: 250px;
+    padding-left: 350px;
+    font-size: 70px;
+}
+
+.event-header h2 {
+    padding-top: 10px;
+    margin-left: 550px;
+}
+
+.body {
+ align-content: center;
+}
+
+.event-header {
+    margin-top: 10px;
+}
+
+.raisin_img {
+    width: 250px; /* width of container */
+    height: 160px; /* height of container */
+    overflow: hidden;
+    border: none;
+}
+.raisin_img img {
+    margin: -10px 0px 0px -180px;
+}
+
+.button, button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.column {
+    float: left;
+}
+
+.left {
+    margin-top: 35px;
+    margin-left: 200px;
+    width: 20%;
+}
+.middle {
+    margin-top: 35px;
+    margin-left: 55px;
+    width: 30%;
+}
+
+.right {
+    margin-top: 75px;
+    margin-left: 20px;
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.footer {
+    height: 320px;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+}
+
+.f1 {
+    padding-left: 135px;
+    padding-top: 55px;
+    width: 20%;
+}
+
+.map {
+    width: 270px;
+    height: 200px; /* height of container */
+    overflow: hidden;
+    border: none;
+
+}
+
+.map img {
+    margin: -10px 0px 0px -180px;
+}
+
+.f2 {
+    width: 20%;
+    padding: 50px;
+}
+
+.f3  {
+    width: 20%;
+    padding-top: 50px;
+}
+
+.f4 {
+    width: 20%;
+    padding-top: 50px;
+}
